@@ -1,12 +1,966 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://res.cloudinary.com" rel="dns-prefetch" />
+    <link
+      href="https://arthswasth.s3.ap-south-1.amazonaws.com"
+      rel="dns-prefetch"
+    />
+    <link href="https://fonts.googleapis.com" rel="dns-prefetch" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArthSwasth</title>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="ascdn/src/layout/mod_style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins"
+      rel="stylesheet"
+    />
+    <!-- SEO -->
+    <link rel="canonical" href="https://www.arthswasth.com/" />
+
+    <!-- Facebook Meta Data -->
+    <meta property="fb:app_id" content="222029145108202" />
+    <meta
+      name="og_site_name"
+      property="og:site_name"
+      content="ArthSwasth.com"
+    />
+    <meta
+      name="og_title"
+      property="og:title"
+      content="ArthSwasth.com: Meaning of Healthy Living by Jimmy Khurana"
+    />
+    <meta name="og_type" property="og:type" content="website" />
+    <meta
+      name="og_url"
+      property="og:url"
+      content="https://www.arthswasth.com/"
+    />
+    <meta
+      name="og_image"
+      property="og:image"
+      content="http://www.arthswasth.com/ascdn/img/layout/asset/as_special_offer_30.png"
+    />
+    <meta
+      name="og_image_url"
+      property="og:image:secure_url"
+      content="https://res.cloudinary.com/arthswasth/image/upload/ascdn_r/img/layout/asset/as_special_offer_30.png"
+    />
+    <meta
+      name="og_description"
+      property="og:description"
+      content="It is time to balance your life & nourish your soul! Art of Healthy Living - ArthSwasth.com."
+    />
+    <meta name="og_locale" property="og:locale" content="en_IN" />
+
+    <!-- Twitter Meta Data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="ttwitter:site" content="@ArthSwasth" />
+    <meta name="twitter:creator" content="@ArthSwasth" />
+    <meta
+      name="twitter:title"
+      content="ArthSwasth.com: Meaning of Healthy Living by Jimmy Khurana"
+    />
+    <meta
+      name="twitter:description"
+      content="It is time to balance your life & nourish your soul! Art of Healthy Living - ArthSwasth.com."
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/arthswasth/image/upload/ascdn_r/img/layout/asset/as_special_offer_30.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="ArthSwasth.com: Meaning of Healthy Living by Jimmy Khurana"
+    />
+
+    <!-- SEO -->
+    <title>ArthSwasth.com: Meaning of Healthy Living by Jimmy Khurana</title>
+    <meta
+      name="description"
+      content='"It is time to balance your life & nourish your soul! Art of Healthy Living" - ArthSwasth.com. Jimmy Khurana is a Dietitian, Certified Diabetic Educator, Nutrition Consultant, Nutritionist Therapeutic and a Health and Wellness coach and specializes in Food and Nutrition, Dietetics and Public Health Nutrition, Lose/Gain Weight, Personalized Diet Charts, Bariatric Diets.'
+    />
+    <meta
+      name="keywords"
+      content="arthswasth, jimmy khurana, dietitian, diabeties, nutritionist, therapeutic, nutrition, health and wellness coach, lose weight, gain weight, diet chart, bariatric post diet, bariatric pre diet, lactation, pcod"
+    />
+    <style>
+      div#load_screen {
+        background: #ffffff;
+        opacity: 1;
+        position: fixed;
+        z-index: 99;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+      }
+      div#load_screen > div#loading {
+        color: #fff;
+        width: 128px;
+        height: 128px;
+        display: block;
+        margin: 20% auto;
+      }
+      #process_screen {
+        background: #ffffff;
+        opacity: 0.7;
+        position: fixed;
+        z-index: 99;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        display: none;
+      }
+      #process_screen > div#processing {
+        color: #fff;
+        width: 128px;
+        height: 128px;
+        display: block;
+        margin: 20% auto;
+      }
+    </style>
   </head>
   <body>
-    ArthSwasth Static Website
+    <div id="load_screen">
+      <div id="loading">
+        <img src="/ascdn/img/layout/asset/as_loading_ajax.gif" alt="Loading" />
+      </div>
+    </div>
+    <div id="process_screen">
+      <div id="processing">
+        <img
+          src="/ascdn/img/layout/asset/as_processing_ajax.gif"
+          alt="Loading"
+        />
+      </div>
+    </div>
+    <header>
+      <div class="head_full_wrap">
+        <div class="head_full_wrap_img">
+          <img
+            src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/as_home_img_1.jpg"
+            alt="Home"
+          />
+          <div class="img_text">
+            <span>Conscious Living & Food</span>
+            <h1>Eat right,</h1>
+            <h1>be bright!</h1>
+          </div>
+        </div>
+        <div id="top_bar" class="head_full_wrap_nav">
+          <div class="nav_wrap">
+            <div class="as_nav_wrap" onclick="openNav()">
+              <div id="nav_icon_top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="as_logo_wrap">
+              <a class="as_logo" href="/">arthswasth.com</a>
+            </div>
+            <div class="as_link_wrap">
+              <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mob_nav_trig" class="mob_overlay">
+        <a href="javascript:void(0)" class="mob_closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="mob_overlay-content">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html" class="active">About</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="as_msg_wrap">
+        <div class="krazy_wrap">
+          <div class="krazy_1"></div>
+          <div class="krazy_2"></div>
+          <div class="krazy_3"></div>
+          <div class="krazy_4"></div>
+        </div>
+        <div class="as_msg">
+          <h1>
+            "It is time to balance your life & nourish your soul! Art of Healthy
+            Living"
+            <span> - ArthSwasth.com</span>
+          </h1>
+        </div>
+        <div class="as_perfect">
+          <div class="as_perfect_head_wrap">
+            <span class="way">WAYS TO GET FIT</span>
+            <div class="gb_as_heading">Steps to Your Perfect Body</div>
+            <div class="gb_green_mark"></div>
+          </div>
+          <div class="as_step_wrap gb_1200">
+            <div class="as_step_holder">
+              <div class="as_step_num">01.</div>
+              <div class="as_step_img">
+                <img
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto/ascdn_r/img/layout/asset/diet_c.jpg"
+                  alt="Diets"
+                />
+              </div>
+              <div class="as_step_heading">Nutrition Plan</div>
+              <div class="as_step_text">Let diet be your medicine</div>
+              <div class="as_step_link">
+                <a href="index.html">Learn More</a>
+              </div>
+            </div>
+            <div class="as_step_holder">
+              <div class="as_step_num">02.</div>
+              <div class="as_step_img">
+                <img
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto/ascdn_r/img/layout/asset/fit_c.jpg"
+                  alt="Exercise"
+                />
+              </div>
+              <div class="as_step_heading">Exercise Program</div>
+              <div class="as_step_text">Make Sweat Your Best Accessory</div>
+              <div class="as_step_link">
+                <a href="index.html">Learn More</a>
+              </div>
+            </div>
+            <div class="as_step_holder">
+              <div class="as_step_num">03.</div>
+              <div class="as_step_img">
+                <img
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto/ascdn_r/img/layout/asset/food_c.jpg"
+                  alt="Fresh"
+                />
+              </div>
+              <div class="as_step_heading">Perfect Plan</div>
+              <div class="as_step_text">Eat. Sweat. Smile. Repeat.</div>
+              <div class="as_step_link">
+                <a href="index.html">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="as_home_services_wrap">
+        <div class="as_service_heading_wrap">
+          <span>OUR SERVICES</span>
+          <div class="gb_as_heading">Our Qualifications</div>
+          <div class="gb_blue_mark"></div>
+          <h2>A Fresh Approach To Health & Life</h2>
+        </div>
+        <div class="as_service_wrap">
+          <div class="as_service_holder_wrap">
+            <div class="as_service_holder">
+              <div>
+                <img
+                  class="cld-responsive"
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/lifestyle_yoga.jpg"
+                  data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/lifestyle_yoga.jpg"
+                />
+              </div>
+              <div class="as_holder_partb">
+                <h3><a href="index.html">Improving Lifestyle</a></h3>
+                <span>Get all of the benefits</span>
+                <p>
+                  You’re ready to explore a life that loves you as much as you
+                  love it through bi-weekly one on one coaching sessions.
+                </p>
+                <a class="btn_more" href="">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="as_service_holder_wrap">
+            <div class="as_service_holder">
+              <div>
+                <img
+                  class="cld-responsive"
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/initial_ass.jpg"
+                  data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/initial_ass.jpg"
+                />
+              </div>
+              <div class="as_holder_partb">
+                <h3><a href="index.html">Nutrition Assessment</a></h3>
+                <span>What You Get..</span>
+                <p>
+                  Sessions where we uncover the habits & thoughts in the way of
+                  a healthy relationship with food & your body.
+                </p>
+                <a class="btn_more" href="">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="as_service_holder_wrap">
+            <div class="as_service_holder">
+              <div>
+                <img
+                  class="cld-responsive"
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/corp_well.jpg"
+                  data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/corp_well.jpg"
+                />
+              </div>
+              <div class="as_holder_partb">
+                <h3><a href="index.html">Corporate Wellness</a></h3>
+                <span>Perfect for your company...</span>
+                <p>
+                  When you have healthy employees, your company reaps the
+                  benefits, make smart choices that can increase vitality.
+                </p>
+                <a class="btn_more" href="">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="as_service_all">
+          <a class="btn_all" href="services.html">View All Services</a>
+        </div>
+      </section>
+      <section class="as_feature_wrap">
+        <div class="as_feature_text_wrap">
+          <div class="gb_as_heading">
+            You've tried dieting a million times.
+            <span>Now try something different.</span>
+          </div>
+          <p>
+            "ArthSwasth look at exercise, eating, wellness and food not just as
+            calories and weight loss, but also emotional, mental, physical, and
+            spiritual terms. An Integrative with Nutrition Health Coach who's
+            providing services in area knows like state of mind, health history
+            background, as well as sleep patterns. We make sure you get the most
+            personalized health care you deserve between those doctor visits"
+          </p>
+        </div>
+        <div class="as_feature_holder_list">
+          <div class="as_feature_holder_wrap">
+            <div class="as_feature_holder">
+              <img
+                class="cld-responsive"
+                src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/as-featured-image-1.jpg"
+                data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/as-featured-image-1.jpg"
+                alt=""
+              />
+              <p><a href="/blogs">Nutrition Strategies</a></p>
+            </div>
+          </div>
+          <div class="as_feature_holder_wrap">
+            <div class="as_feature_holder">
+              <img
+                class="cld-responsive"
+                src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/as-featured-image-2.jpg"
+                data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/as-featured-image-2.jpg"
+                alt=""
+              />
+              <p><a href="/blogs">Workout Routines</a></p>
+            </div>
+          </div>
+          <div class="as_feature_holder_wrap">
+            <div class="as_feature_holder">
+              <img
+                class="cld-responsive"
+                src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/as-featured-image-3.jpg"
+                data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/as-featured-image-3.jpg"
+                alt=""
+              />
+              <p><a href="/blogs">Support & Motivation</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="as_act_wrap gb_1200">
+          <div class="as_act_holder">
+            <div class="as_act_list_icon">
+              <div class="icon_format">
+                <div class="brain_img icon_img_size"></div>
+              </div>
+            </div>
+            <div class="as_act_list_text">
+              <h3>Balance Body & Mind</h3>
+              <p>The relationship between the mind and body is complex.</p>
+            </div>
+          </div>
+          <div class="as_act_holder">
+            <div class="as_act_list_icon">
+              <div class="icon_format">
+                <div class="weight_img icon_img_size"></div>
+              </div>
+            </div>
+            <div class="as_act_list_text">
+              <h3>Fitness & Performance</h3>
+              <p>
+                We're here to help you overcome the barriers in the way to a
+                healthier.
+              </p>
+            </div>
+          </div>
+          <div class="as_act_holder">
+            <div class="as_act_list_icon">
+              <div class="icon_format">
+                <div class="cycle_img icon_img_size"></div>
+              </div>
+            </div>
+            <div class="as_act_list_text">
+              <h3>Physical Activity</h3>
+              <p>
+                Walking, running, dancing, swimming, yoga are a few physical
+                activity.
+              </p>
+            </div>
+          </div>
+          <div class="as_act_holder">
+            <div class="as_act_list_icon">
+              <div class="icon_format">
+                <div class="exercise_img icon_img_size"></div>
+              </div>
+            </div>
+            <div class="as_act_list_text">
+              <h3>Exercise Program</h3>
+              <p>
+                You have to know which exercises are useful for which groups of
+                muscles.
+              </p>
+            </div>
+          </div>
+          <div class="as_act_holder">
+            <div class="as_act_list_icon">
+              <div class="icon_format">
+                <div class="yoga_img icon_img_size"></div>
+              </div>
+            </div>
+            <div class="as_act_list_text">
+              <h3>Healthy Daily Life</h3>
+              <p>
+                People are most productive when they wake up, and setting up a
+                routine.
+              </p>
+            </div>
+          </div>
+          <div class="as_act_holder">
+            <div class="as_act_list_icon">
+              <div class="icon_format">
+                <div class="heart_img icon_img_size"></div>
+              </div>
+            </div>
+            <div class="as_act_list_text">
+              <h3>Improving Health</h3>
+              <p>
+                The best soluton of course is combining diet improvements
+                together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="as_cust_wrap">
+        <div class="as_cust_exp_wrap">
+          <div class="as_cust_exp_wrap_cover">
+            <div class="as_exp_wrap gb_1200">
+              <div class="as_exp_holder_text">
+                <h3>Over 10 Years of Experience</h3>
+                <p>
+                  We offer a healthier lifestyle. Let's work together to help
+                  you attain the lifelong skills you need to make a lasting
+                  impact on your health. People agree that we are different.
+                </p>
+                <a href="index.html">Request a free consultation</a>
+              </div>
+              <div class="as_exp_holder_img">
+                <div class="as_exp_holder_img_block">
+                  <div class="img_64_box img_exercises_64"></div>
+                  <div class="heart_seperate"></div>
+                  <h5>200<span>+</span></h5>
+                  <h6>Workout Sesisons</h6>
+                </div>
+                <div class="as_exp_holder_img_block">
+                  <div class="img_64_box img_smile_64"></div>
+                  <div class="heart_seperate"></div>
+                  <h5>148<span>+</span></h5>
+                  <h6>Happy Customers</h6>
+                </div>
+                <div class="as_exp_holder_img_block">
+                  <div class="img_64_box img_heart_64"></div>
+                  <div class="heart_seperate"></div>
+                  <h5>90</h5>
+                  <h6>Days Of Program</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="as_contact_wrap">
+        <div class="as_contact_holder gb_1200">
+          <div class="as_contact_text">
+            <span>CONTACT WITH US</span>
+            <div class="gb_as_heading">Make an Appointment</div>
+            <div class="gb_green_mark"></div>
+            <p>
+              Send me an email with a few words about what you are looking to
+              achieve and we can schedule a FREE initial consultation to discuss
+              your health history and goals.
+            </p>
+          </div>
+          <div class="as_contact_form">
+            <form id="as_contact_form" method="POST" action="">
+              <div id="as_contact_form_inpt" class="as_contact_form_inpt">
+                <div id="as_channel" class="gb_no_display">Home</div>
+                <div class="input_label_holder">
+                  <input
+                    type="text"
+                    id="as_contact_fn"
+                    name="as_contact_fn"
+                    maxlength="50"
+                    onkeypress="return onlyAlphabets(event);"
+                    required
+                  />
+                  <label class="float_label" for="as_contact_fn"
+                    >First Name *</label
+                  >
+                </div>
+                <div class="input_label_holder">
+                  <input
+                    type="text"
+                    id="as_contact_ln"
+                    name="as_contact_ln"
+                    maxlength="50"
+                    onkeypress="return onlyAlphabets(event);"
+                    required
+                  />
+                  <label class="float_label" for="as_contact_ln"
+                    >Last Name *</label
+                  >
+                </div>
+                <div class="input_label_holder">
+                  <input
+                    type="text"
+                    id="as_contact_em"
+                    name="as_contact_em"
+                    maxlength="225"
+                    required
+                  />
+                  <label class="float_label" for="as_contact_em">Email *</label>
+                </div>
+                <div class="input_label_holder">
+                  <input
+                    type="text"
+                    id="as_contact_mn"
+                    name="as_contact_mn"
+                    maxlength="10"
+                    onkeypress="return onlyNumeric(event);"
+                    required
+                  />
+                  <label class="float_label" for="as_contact_mn"
+                    >Mobile Number *</label
+                  >
+                </div>
+              </div>
+              <div class="as_contact_form_txtbtn">
+                <div class="input_label_holder">
+                  <textarea
+                    id="as_contact_msg"
+                    name="as_contact_msg"
+                    maxlength="3000"
+                    onkeyup="return charcount();"
+                    required
+                  ></textarea>
+                  <label class="float_label" for="as_contact_msg"
+                    >Message *</label
+                  >
+                </div>
+                <div>Count: <span id="as_contact_msg_count">0</span></div>
+                <button class="gb_btn_effect">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="as_testim_wrap">
+        <div class="as_testim_heading_wrap">
+          <span>CUSTOMER REVIEWS</span>
+          <div class="gb_as_heading">Success Stories</div>
+          <div class="gb_green_mark"></div>
+        </div>
+        <div class="as_client_wrap gb_1200">
+          <div class="as_client_text">
+            <h5>Our Members' Achievements</h5>
+            <span>Sonia Sharma lost 30 Kgs</span>
+            <p>
+              “Jim will completely transform your mindset towards food and your
+              relationship with your body. I'm now kinder to myself and am
+              happier, not just because I lost weight, but because I learned to
+              appreciate and take care of myself.”
+            </p>
+            <a href="index.html">View more stories</a>
+          </div>
+          <div class="as_client_img">
+            <img
+              class="cld-responsive"
+              src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/testimonial_client.jpg"
+              data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/testimonial_client.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="as_home_blog_wrap gb_1200">
+        <div class="as_home_blog_heading_wrap">
+          <span>Awesome Articles</span>
+          <div class="gb_as_heading">Your Healthy Lifestyle Blog</div>
+          <div class="gb_green_mark"></div>
+        </div>
+        <div class="as_home_blog_dt_wrap">
+          <div class="as_home_art_wrap">
+            <div class="as_home_art_holder_wrap">
+              <div class="as_home_art_holder">
+                <img
+                  class="cld-responsive"
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/gm_diet.jpg"
+                  data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/gm_diet.jpg"
+                  alt=""
+                />
+                <div class="as_home_art_holder_partb">
+                  <span>January 10, 2018</span>
+                  <div class="hed">
+                    <a href="index.html">The GM Diet Plan</a>
+                  </div>
+                  <p>
+                    Lorem imsup dolor sit amet. Providing high quality service
+                    and expertise eget sagittis. Lorem imsup dolor sit amet.
+                    Providing high quality service and expertise eget sagittis.
+                  </p>
+                  <div class="ln"><a href="index.html">Read More</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="as_home_art_wrap">
+            <div class="as_home_art_holder_wrap">
+              <div class="as_home_art_holder">
+                <img
+                  class="cld-responsive"
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/high_protien.jpg"
+                  data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/high_protien.jpg"
+                  alt=""
+                />
+                <div class="as_home_art_holder_partb">
+                  <span>January 10, 2018</span>
+                  <div class="hed">
+                    <a href="index.html">A High-Protein Diet Plan</a>
+                  </div>
+                  <p>
+                    Lorem imsup dolor sit amet. Providing high quality service
+                    and expertise eget sagittis. Lorem imsup dolor sit amet.
+                    Providing high quality service and expertise eget sagittis.
+                  </p>
+                  <div class="ln"><a href="index.html">Read More</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="as_home_art_wrap">
+            <div class="as_home_art_holder_wrap">
+              <div class="as_home_art_holder">
+                <img
+                  class="cld-responsive"
+                  src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/keto_diet.jpg"
+                  data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/keto_diet.jpg"
+                  alt=""
+                />
+                <div class="as_home_art_holder_partb">
+                  <span>January 10, 2018</span>
+                  <div class="hed">
+                    <a href="index.html">Keto Diet Meal Plan</a>
+                  </div>
+                  <p>
+                    Lorem imsup dolor sit amet. Providing high quality service
+                    and expertise eget sagittis. Lorem imsup dolor sit amet.
+                    Providing high quality service and expertise eget sagittis.
+                  </p>
+                  <div class="ln"><a href="index.html">Read More</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="as_subscribe_wrap">
+        <span class="gb_strech_heading">BE FIRST TO READ</span>
+        <div class="hd gb_as_heading">Jim's Free Newsletter #arthswasth</div>
+        <div class="gb_green_mark"></div>
+        <div class="txt">
+          Subscribe to stay informed and get healthy tips, recipes, food cures
+          and motivational letters.
+        </div>
+        <div class="as_subscribe_wrap_form">
+          <form id="as_subscribe_form" method="POST" action="">
+            <div id="as_channel_subscribe" class="gb_no_display">Home</div>
+            <input
+              type="email"
+              id="as_subscribe_em"
+              name="as_subscribe_em"
+              placeholder="Email Address"
+              maxlength="226"
+              required
+            /><br /><button class="gb_btn_effect">Subscribe</button>
+          </form>
+        </div>
+      </section>
+      <section class="as_meet_coach">
+        <div class="first_col">
+          <a href="services.html">
+            <div class="col_wrap">
+              <div class="gb_strech_heading">HEALTH COACH</div>
+              <div class="co_hd gb_as_heading">Jimmy Khurana</div>
+              <div class="co_txt">Your personal trainer & nutritionist</div>
+            </div>
+          </a>
+        </div>
+        <div class="second_col">
+          <a href="/blogs">
+            <div class="col_wrap">
+              <div class="gb_strech_heading">Health Mantra</div>
+              <div class="co_hd gb_as_heading">ArthSwasth</div>
+              <div class="co_txt">Get Healthy And Vibrant for Good</div>
+            </div>
+          </a>
+        </div>
+        <div class="third_col">
+          <a href="about.html">
+            <div class="col_wrap">
+              <div class="gb_strech_heading">MY STORY</div>
+              <div class="co_hd gb_as_heading">Meet Jimmy Khurana</div>
+              <div class="co_txt">Certified Health & Wellness Coach</div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="as_special_offer_wrap">
+        <div class="as_special_offer_holder gb_1200">
+          <div class="special_txt_holder">
+            <div class="spc_hd1 gb_strech_heading">POPULAR PROGRAMS</div>
+            <div class="spc_hd2 gb_as_heading">
+              Special Program<br />for Pregnant Women<br />& Mother
+            </div>
+            <div class="gb_green_mark"></div>
+            <div class="spc_txt">
+              I'm a mother and know these phases well. Let's make your pregnancy
+              and motherhood full of joy and healthy lifestyle. So, my top line
+              programs for you at 30% off.
+            </div>
+            <div><a class="gb_btn_effect">Learn More</a></div>
+          </div>
+          <div class="special_img_holder">
+            <img
+              class="cld-responsive"
+              src="https://res.cloudinary.com/arthswasth/image/upload/q_10,f_auto,w_auto,c_scale/e_blur:1000,o_50/ascdn_r/img/layout/asset/as_special_offer_30.png"
+              data-src="https://res.cloudinary.com/arthswasth/image/upload/q_auto,f_auto,w_auto,c_scale,fl_progressive/ascdn_r/img/layout/asset/as_special_offer_30.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="as_location_wrap">
+        <div class="as_location_box first_box">
+          <div class="as_box_img loco_img"></div>
+          <div class="as_box_txt">
+            <a target="_blank" href="https://goo.gl/maps/H28FvChyjQs"
+              >1/22, Asaf Ali Road, New Delhi 110002
+            </a>
+          </div>
+          <div class="as_box_dsc">ADDRESS</div>
+        </div>
+        <div class="as_location_box second_box">
+          <div class="as_box_img emal_img"></div>
+          <div class="as_box_txt">
+            <a target="_blank" href="mailto:wellness@arthswasth.com"
+              >wellness@arthswasth.com</a
+            >
+          </div>
+          <div class="as_box_dsc">EMAIL</div>
+        </div>
+        <div class="as_location_box third_box">
+          <div class="as_box_img mobi_img"></div>
+          <div class="as_box_txt">
+            <a href="tel:+917289980980">+91 7289 980 980</a>
+          </div>
+          <div class="as_box_dsc">
+            PHONE / <a href="https://wa.me/917289980980">WHATS APP</a>
+          </div>
+        </div>
+        <div class="as_location_box fourth_box">
+          <div class="as_box_img fmsg_img"></div>
+          <div class="as_box_txt">
+            <a target="_blank" href="http://m.me/ArthSwasth">@arthswasth</a>
+          </div>
+          <div class="as_box_dsc">FB Messenger</div>
+        </div>
+      </section>
+      <section class="as_info_wrap">
+        <div class="as_foot_logo_holder">
+          <a href="index.html"
+            ><div class="as_foot_logo">ArthSwasth.com</div></a
+          >
+        </div>
+        <div class="as_head_links">
+          <a href="index.html">Home</a> | <a href="services.html">Services</a> |
+          <a href="blog.html">Blog</a> | <a href="about.html">About</a> |
+          <a href="contactus.html">Contact Us</a>
+        </div>
+        <div class="as_social_links">
+          <a target="_blank" class="" href="https://www.facebook.com/ArthSwasth"
+            ><div class="as_social_common as_socl_fb">FaceBook</div></a
+          >
+          <a target="_blank" class="" href="https://plus.google.com/+ArthSwasth"
+            ><div class="as_social_common as_socl_gp">Google+</div></a
+          >
+          <a target="_blank" class="" href="https://twitter.com/ArthSwasth"
+            ><div class="as_social_common as_socl_tw">Twitter</div></a
+          >
+          <a
+            target="_blank"
+            class=""
+            href="https://www.instagram.com/arthswasth.healthyliving/"
+            ><div class="as_social_common as_socl_in">Instagram</div></a
+          >
+          <a
+            target="_blank"
+            class=""
+            href="https://www.pinterest.com/arthswasth/"
+            ><div class="as_social_common as_socl_pi">Pinterest</div></a
+          >
+          <a
+            target="_blank"
+            class=""
+            href="https://www.linkedin.com/company/arthswasth"
+            ><div class="as_social_common as_socl_li">LinkedIn</div></a
+          >
+          <br />
+          <a target="_blank" class="" href="https://m.me/ArthSwasth"
+            ><div class="as_social_common as_socl_fm">Messenger</div></a
+          >
+          <a target="_blank" class="" href="https://wa.me/917289980980"
+            ><div class="as_social_common as_socl_wa">WhatsApp</div></a
+          >
+          <a
+            target="_blank"
+            class=""
+            href="https://www.youtube.com/channel/UC3AWxVis7EMEsgi4LTeBFsw"
+            ><div class="as_social_common as_socl_yt">YouTube</div></a
+          >
+        </div>
+        <div class="as_copyright_txt">
+          ArthSwasth © 2018 | All Rights Reserved
+        </div>
+        <div class="as_policy_links">
+          <a href="policy/termsandconditions.html">Terms and Conditions</a> |
+          <a href="policy/privacypolicy.html">Privacy Policy</a> |
+          <a href="policy/disclaimer.html">Disclaimer</a>
+        </div>
+      </section>
+    </footer>
+    <div id="snackbar" class="gb_notify"></div>
+    <script src="/ascdn/src/js/jquery-3.3.1.min.js"></script>
+    <script src="/ascdn/src/js/bundle.min.js"></script>
+    <script src="/ascdn/src/js/as_static_js/as_js_fun.js"></script>
+    <script>
+      window.onscroll = function () {
+        updatetopnav();
+      };
+      var navbar = document.getElementById("top_bar");
+      var sticky = navbar.offsetTop;
+      function updatetopnav() {
+        if (window.pageYOffset > sticky) {
+          navbar.classList.add("add_to_nav");
+        } else {
+          navbar.classList.remove("add_to_nav");
+        }
+      }
+      function openNav() {
+        document.getElementById("mob_nav_trig").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("mob_nav_trig").style.width = "0%";
+      }
+      window.addEventListener("load", function () {
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);
+      });
+      var myclri = new clri.CloudinaryLazyResponsive({
+        cloudinaryOptions: { cloud_name: "arthswasth" },
+        lazyLoadOptions: {
+          data_src: "src-lazy",
+          threshold: 600,
+        },
+      });
+      myclri.init();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "ArthSwasth",
+        "description": "ArthSwasth.com: Meaning of Healthy Living by Jimmy Khurana",
+        "knowsAbout": "Dietitian, Certified Diabetic Educator, Nutrition Consultant, Therapeutic and a Health & Wellness Coach",
+        "founder": {
+          "@type": "Person",
+          "name": "Jimmy Khurana",
+          "jobTitle": "Founder & CEO at ArthSwasth",
+          "url": "https://www.jimmykhurana.com/",
+          "image": "",
+          "sameAs": [
+            "https://www.facebook.com/dt.jimmykhurana/",
+            "http://www.twitter.com/dt_JimmyKhurana",
+            "https://www.instagram.com/dt.jimmykhurana/",
+            "https://in.linkedin.com/in/jimmykhurana",
+            "https://www.jimmykhurana.com/"
+          ],
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Delhi"
+          }
+        },
+        "foundingDate": "April 2016",
+        "foundingLocation": "New Delhi, India",
+        "url": "https://www.arthswasth.com",
+        "logo": "https://www.arthswasth.com/ascdn/img/layout/arth_logo_tx.png",
+        "telephone": "+91 7289 980 980",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1/22, Asaf Ali Road",
+          "addressLocality": "New Delhi, India",
+          "postalCode": "110002",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-7289-980-980",
+          "contactType": "customer service",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"]
+        },
+        "email": "wellness(at)arthswasth.com",
+        "sameAs": [
+          "https://www.facebook.com/ArthSwasth",
+          "https://twitter.com/ArthSwasth",
+          "https://www.instagram.com/arthswasth.healthyliving/",
+          "https://www.linkedin.com/company/arthswasth",
+          "https://www.pinterest.com/arthswasth/",
+          "https://www.youtube.com/channel/UC3AWxVis7EMEsgi4LTeBFsw",
+          "https://www.arthswasth.com/blog/"
+        ]
+      }
+    </script>
   </body>
 </html>
